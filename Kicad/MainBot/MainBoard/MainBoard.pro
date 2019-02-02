@@ -1,4 +1,4 @@
-update=ven. 01 févr. 2019 13:38:06 CET
+update=sam. 02 févr. 2019 11:15:31 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,5 +61,5 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/rex/1_Elec/KicadLib/teensy_library-master/teensy
-LibName34=/home/rex/1_Elec/KicadLib/rex
+LibName33=/home/rex/ARTS/RobotPrincipal/KicadLib/teensy_library-master/teensy
+LibName34=/home/rex/ARTS/RobotPrincipal/KicadLib/rex
