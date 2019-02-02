@@ -197,11 +197,11 @@ Text Notes 850  750  0    60   ~ 0
 PWR SETUP\n
 Text Notes 900  1300 0    60   ~ 0
 +3.3V Regulator\n
-Text Label 4500 2050 2    60   ~ 0
+Text Label 4700 2050 2    60   ~ 0
 PWM_1
-Text Label 4500 2150 2    60   ~ 0
+Text Label 4650 2150 2    60   ~ 0
 PWM_2
-Text Label 4500 2250 2    60   ~ 0
+Text Label 4600 2250 2    60   ~ 0
 PWM_3
 Text Label 4500 2350 2    60   ~ 0
 PWM_4
@@ -216,27 +216,27 @@ F 3 "" H 6850 2950 50  0001 C CNN
 	1    6850 2950
 	0    -1   -1   0   
 $EndComp
-Text Label 4500 2450 2    60   ~ 0
+Text Label 4450 2450 2    60   ~ 0
 PWM_5
-Text Label 4500 2550 2    60   ~ 0
+Text Label 4400 2550 2    60   ~ 0
 PWM_6
-Text Label 4500 2650 2    60   ~ 0
+Text Label 4350 2650 2    60   ~ 0
 PWM_7
-Text Label 4500 2750 2    60   ~ 0
+Text Label 4300 2750 2    60   ~ 0
 PWM_8
-Text Label 4500 2850 2    60   ~ 0
+Text Label 4250 2850 2    60   ~ 0
 PWM_9
-Text Label 4500 3750 2    60   ~ 0
+Text Label 4650 3750 2    60   ~ 0
 PWM_10
-Text Label 4500 3850 2    60   ~ 0
+Text Label 4600 3850 2    60   ~ 0
 PWM_11
-Text Label 6950 5650 0    60   ~ 0
+Text Label 6900 5650 0    60   ~ 0
 PWM_12
-Text Label 6950 5550 0    60   ~ 0
+Text Label 6850 5550 0    60   ~ 0
 PWM_13
-Text Label 6950 5450 0    60   ~ 0
+Text Label 6800 5450 0    60   ~ 0
 PWM_14
-Text Label 6950 5350 0    60   ~ 0
+Text Label 6750 5350 0    60   ~ 0
 PWM_15
 $Comp
 L DRV8825 U?
@@ -287,37 +287,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 1500 1800 1500
 Wire Wire Line
-	4700 2050 4500 2050
-Wire Wire Line
-	4700 2150 4500 2150
-Wire Wire Line
-	4700 2250 4500 2250
-Wire Wire Line
-	4700 2350 4500 2350
-Wire Wire Line
 	6700 2950 6850 2950
-Wire Wire Line
-	4700 2450 4500 2450
-Wire Wire Line
-	4700 2750 4500 2750
-Wire Wire Line
-	4700 2850 4500 2850
-Wire Wire Line
-	4700 2550 4500 2550
-Wire Wire Line
-	4700 2650 4500 2650
-Wire Wire Line
-	4700 3750 4500 3750
-Wire Wire Line
-	4700 3850 4500 3850
-Wire Wire Line
-	6700 5650 6950 5650
-Wire Wire Line
-	6700 5550 6950 5550
-Wire Wire Line
-	6700 5450 6950 5450
-Wire Wire Line
-	6700 5350 6950 5350
 $Comp
 L GND #PWR?
 U 1 1 5C5453BF
@@ -683,17 +653,6 @@ Text Label 9350 5650 2    60   ~ 0
 STEP_STP_4
 Text Label 9350 5750 2    60   ~ 0
 STEP_DIR_4
-$Comp
-L Conn_01x33 J?
-U 1 1 5C54B8E2
-P 3500 3350
-F 0 "J?" H 3500 5050 50  0000 C CNN
-F 1 "Conn_01x33" H 3500 1650 50  0000 C CNN
-F 2 "" H 3500 3350 50  0001 C CNN
-F 3 "" H 3500 3350 50  0001 C CNN
-	1    3500 3350
-	-1   0    0    -1  
-$EndComp
 Text Notes 8800 900  0    60   ~ 0
 Step Drivers\n
 $Comp
@@ -802,4 +761,106 @@ Text Label 10750 6150 2    60   ~ 0
 DC_DIR_4
 Text Label 10750 6250 2    60   ~ 0
 DC_PWM_4
+Wire Wire Line
+	3900 2850 4700 2850
+Wire Wire Line
+	3900 2750 4700 2750
+Wire Wire Line
+	3900 2650 4700 2650
+Wire Wire Line
+	3900 2550 4700 2550
+Wire Wire Line
+	3900 2450 4700 2450
+Wire Wire Line
+	3900 2350 4700 2350
+Wire Wire Line
+	3900 2250 4700 2250
+Wire Wire Line
+	3900 2150 4700 2150
+Wire Wire Line
+	3900 3850 4700 3850
+Wire Wire Line
+	6700 5350 6750 5350
+Wire Wire Line
+	6700 5450 6800 5450
+Wire Wire Line
+	6700 5550 6850 5550
+Wire Wire Line
+	6700 5650 6900 5650
+Wire Wire Line
+	3900 3750 4700 3750
+$Comp
+L GND #PWR?
+U 1 1 5C552A59
+P 3900 1750
+F 0 "#PWR?" H 3900 1500 50  0001 C CNN
+F 1 "GND" H 3900 1600 50  0000 C CNN
+F 2 "" H 3900 1750 50  0001 C CNN
+F 3 "" H 3900 1750 50  0001 C CNN
+	1    3900 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 1850 3900 1850
+Wire Wire Line
+	3900 1950 4700 1950
+Wire Wire Line
+	4700 2050 3900 2050
+Wire Wire Line
+	4700 2950 3900 2950
+Wire Wire Line
+	4700 3050 3900 3050
+Wire Wire Line
+	3900 3150 4700 3150
+Wire Wire Line
+	4700 3250 3900 3250
+Wire Wire Line
+	3900 3350 4700 3350
+Wire Wire Line
+	4700 3450 3900 3450
+Wire Wire Line
+	4700 3550 3900 3550
+Wire Wire Line
+	4700 3650 3900 3650
+Wire Wire Line
+	3900 3950 4700 3950
+Wire Wire Line
+	4700 4050 3900 4050
+$Comp
+L GND #PWR?
+U 1 1 5C553850
+P 4700 4350
+F 0 "#PWR?" H 4700 4100 50  0001 C CNN
+F 1 "GND" H 4700 4200 50  0000 C CNN
+F 2 "" H 4700 4350 50  0001 C CNN
+F 3 "" H 4700 4350 50  0001 C CNN
+	1    4700 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x24 J?
+U 1 1 5C5544B4
+P 3700 2950
+F 0 "J?" H 3700 4150 50  0000 C CNN
+F 1 "Conn_01x24" H 3700 1650 50  0000 C CNN
+F 2 "" H 3700 2950 50  0001 C CNN
+F 3 "" H 3700 2950 50  0001 C CNN
+	1    3700 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x24 J?
+U 1 1 5C55475B
+P 3700 5350
+F 0 "J?" H 3700 6550 50  0000 C CNN
+F 1 "Conn_01x24" H 3700 4050 50  0000 C CNN
+F 2 "" H 3700 5350 50  0001 C CNN
+F 3 "" H 3700 5350 50  0001 C CNN
+	1    3700 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 4150 4700 4150
+Wire Wire Line
+	4700 4250 3900 4250
 $EndSCHEMATC
