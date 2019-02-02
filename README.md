@@ -8,3 +8,4 @@ And our website (quite empty yet :/ ) here :https://associationrobottelecomstras
 
 MainBotPCB is the PCB that will contain the majority of the  components and connections required for our main robot to work, hence the original name :) .
 
+NotesConception.md contains my notes while working on this project (in French)
