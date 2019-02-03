@@ -79,17 +79,24 @@ Headers femelles :
 
 
 
-Communication entre microcontrôleurs et autres :
+Communication entre microcontrôleurs et autres trucs :
 
 	Le robot sera embarqué d’une R.Pi qui s’occupera de la vision. Comment échanger les informations entre les deux ? En considérant la Teensy comme le Master de tout le robot, il faut configurer la R.Pi en Slave. 
-	
 Une piste ici : https://raspberrypi.stackexchange.com/questions/76109/raspberry-as-an-i2c-slave
-
 Étendons la question à l’ensemble des composants du robot : La Teensy doit-elle contrôler l’ensemble du robot directement et simultanément, ou bien utiliser un ensemble de Slaves I2C ?
-
 Teensy un peu overkill pour un simple chef d’orchestre ?
-
 L’idée est à tester : communication entre deux Arduinos et commande de l’une par une autre.
+
+Attention à la compatibilité des niveaux logiques d’un microcontrôleur à un autre :
+
+	Pour une Arduino, la tension de niveau haut logique est de 5V, alors que celle-ci est de 3.3V pour une Rpi. Une Arduino comprend le 3.3V, mais il est dangereux de communiquer en 5V avec la Rpi. Il faut donc effectuer une conversion de niveaux logiques de bus I2C.
+
+Il existe des convertisseurs de niveaux logiques, petite vidéo :https://www.youtube.com/watch?v=7N1shxJ8k7I
+
+Mais on peut se contenter d’utiliser une diode Zener en inverse pour limiter la tension de communication à 3.3V. Cette diode (1N4728) pourrait faire l’affaire: https://components101.com/sites/default/files/component_datasheet/3.3V-Zener-Diode-1N4728A-datasheet.pdf
+
+Communication I2C Arduino/Arduino :
+https://www.instructables.com/id/I2C-between-Arduinos/
 
 
 
