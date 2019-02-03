@@ -139,6 +139,8 @@ https://www.instructables.com/id/I2C-between-Arduinos/
 
 
 
+
+
 Ressources :
 I2C :
 https://www.youtube.com/watch?v=N0YtIzGIW4k
@@ -153,4 +155,4 @@ Pogo pins :https://www.cfeconn.com/connector/2-54mm-pogo-pin-spring-2-pin-smd-c
 Multiplexeur :https://www.amazon.fr/s/?ie=UTF8&keywords=multiplexeur+i2c&tag=hydfrmsn-21&index=aps&hvadid=80195661697718&hvqmt=b&hvbmt=bb&hvdev=c&ref=pd_sl_5qf642evel_b
 https://learn.adafruit.com/adafruit-tca9548a-1-to-8-i2c-multiplexer-breakout/overview
 
-
+end
