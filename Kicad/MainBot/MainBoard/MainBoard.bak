@@ -863,7 +863,7 @@ Wire Wire Line
 	3900 4150 4700 4150
 Wire Wire Line
 	4700 4250 3900 4250
-Text Notes 750  6800 0    60   ~ 0
+Text Notes 500  7400 0    60   ~ 0
 Teensy/Raspeberry Pi \n    comm channel\n
 Wire Wire Line
 	4700 5050 4600 5050
@@ -873,4 +873,29 @@ Text Label 4650 5050 2    60   ~ 0
 SCL1
 Text Label 4650 5150 2    60   ~ 0
 SDA1
+Text Label 4150 1950 0    60   ~ 0
+TX1
+Text Label 4200 1850 0    60   ~ 0
+RX1
+$Comp
+L Conn_01x02 J?
+U 1 1 5C5C40DB
+P 1000 7550
+F 0 "J?" H 1000 7650 50  0000 C CNN
+F 1 "Conn_01x02" H 1000 7350 50  0000 C CNN
+F 2 "" H 1000 7550 50  0001 C CNN
+F 3 "" H 1000 7550 50  0001 C CNN
+	1    1000 7550
+	1    0    0    -1  
+$EndComp
+Text Notes 1050 7700 0    60   ~ 0
+-> RX_Pi\n-> TX_Pi
+Wire Wire Line
+	800  7550 750  7550
+Wire Wire Line
+	800  7650 750  7650
+Text Label 750  7550 2    60   ~ 0
+TX_1
+Text Label 750  7650 2    60   ~ 0
+RX_1
 $EndSCHEMATC

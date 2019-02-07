@@ -282,12 +282,6 @@ F 3 "" H 10500 1000 50  0001 C CNN
 	1    10500 1000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1100 1500 1000 1500
-Wire Wire Line
-	1700 1500 1800 1500
-Wire Wire Line
-	6700 2950 6850 2950
 $Comp
 L GND #PWR?
 U 1 1 5C5453BF
@@ -321,16 +315,6 @@ F 3 "" H 10700 1450 50  0001 C CNN
 	1    10700 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10300 1150 10650 1150
-Wire Wire Line
-	10300 1350 10500 1350
-Wire Wire Line
-	10500 1450 10300 1450
-Wire Wire Line
-	10300 1550 10500 1550
-Wire Wire Line
-	10500 1650 10300 1650
 NoConn ~ 10300 1750
 NoConn ~ 9350 1150
 NoConn ~ 9350 1250
@@ -347,14 +331,6 @@ F 3 "" H 10300 1850 50  0001 C CNN
 	1    10300 1850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9350 1550 9300 1550
-Wire Wire Line
-	9350 1650 9300 1650
-Wire Wire Line
-	9350 1750 9300 1750
-Wire Wire Line
-	9350 1850 9300 1850
 Text Label 9300 1550 2    60   ~ 0
 STEP_RST_1
 Text Label 9300 1650 2    60   ~ 0
@@ -390,7 +366,6 @@ F 3 "" H 10300 3150 50  0001 C CNN
 	1    10300 3150
 	0    -1   -1   0   
 $EndComp
-Connection ~ 10500 1150
 $Comp
 L +12V #PWR?
 U 1 1 5C547AD6
@@ -406,8 +381,6 @@ NoConn ~ 9350 2750
 NoConn ~ 9350 2650
 NoConn ~ 9350 2550
 NoConn ~ 9350 2450
-Wire Wire Line
-	10300 2450 10500 2450
 $Comp
 L +12V #PWR?
 U 1 1 5C547F36
@@ -464,16 +437,6 @@ F 3 "" H 10700 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 10300 3050
-Wire Wire Line
-	10300 2650 10500 2650
-Wire Wire Line
-	10500 2750 10300 2750
-Wire Wire Line
-	10300 2850 10500 2850
-Wire Wire Line
-	10500 2950 10300 2950
-Wire Wire Line
-	10300 3750 10500 3750
 $Comp
 L C C?
 U 1 1 5C548C4C
@@ -529,14 +492,6 @@ F 3 "" H 10700 4050 50  0001 C CNN
 	1    10700 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10300 3950 10500 3950
-Wire Wire Line
-	10500 4050 10300 4050
-Wire Wire Line
-	10300 4150 10500 4150
-Wire Wire Line
-	10500 4250 10300 4250
 NoConn ~ 10300 4350
 $Comp
 L GND #PWR?
@@ -564,8 +519,6 @@ F 3 "" H 9800 5350 60  0001 C CNN
 	1    9800 5350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10300 5050 10500 5050
 $Comp
 L C C?
 U 1 1 5C54A50D
@@ -621,14 +574,6 @@ F 3 "" H 10700 5350 50  0001 C CNN
 	1    10700 5350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10300 5250 10500 5250
-Wire Wire Line
-	10500 5350 10300 5350
-Wire Wire Line
-	10300 5450 10500 5450
-Wire Wire Line
-	10500 5550 10300 5550
 NoConn ~ 10300 5650
 $Comp
 L GND #PWR?
@@ -761,34 +706,6 @@ Text Label 10750 6150 2    60   ~ 0
 DC_DIR_4
 Text Label 10750 6250 2    60   ~ 0
 DC_PWM_4
-Wire Wire Line
-	3900 2850 4700 2850
-Wire Wire Line
-	3900 2750 4700 2750
-Wire Wire Line
-	3900 2650 4700 2650
-Wire Wire Line
-	3900 2550 4700 2550
-Wire Wire Line
-	3900 2450 4700 2450
-Wire Wire Line
-	3900 2350 4700 2350
-Wire Wire Line
-	3900 2250 4700 2250
-Wire Wire Line
-	3900 2150 4700 2150
-Wire Wire Line
-	3900 3850 4700 3850
-Wire Wire Line
-	6700 5350 6750 5350
-Wire Wire Line
-	6700 5450 6800 5450
-Wire Wire Line
-	6700 5550 6850 5550
-Wire Wire Line
-	6700 5650 6900 5650
-Wire Wire Line
-	3900 3750 4700 3750
 $Comp
 L GND #PWR?
 U 1 1 5C552A59
@@ -800,32 +717,6 @@ F 3 "" H 3900 1750 50  0001 C CNN
 	1    3900 1750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4700 1850 3900 1850
-Wire Wire Line
-	3900 1950 4700 1950
-Wire Wire Line
-	4700 2050 3900 2050
-Wire Wire Line
-	4700 2950 3900 2950
-Wire Wire Line
-	4700 3050 3900 3050
-Wire Wire Line
-	3900 3150 4700 3150
-Wire Wire Line
-	4700 3250 3900 3250
-Wire Wire Line
-	3900 3350 4700 3350
-Wire Wire Line
-	4700 3450 3900 3450
-Wire Wire Line
-	4700 3550 3900 3550
-Wire Wire Line
-	4700 3650 3900 3650
-Wire Wire Line
-	3900 3950 4700 3950
-Wire Wire Line
-	4700 4050 3900 4050
 $Comp
 L GND #PWR?
 U 1 1 5C553850
@@ -859,19 +750,11 @@ F 3 "" H 3700 5350 50  0001 C CNN
 	1    3700 5350
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3900 4150 4700 4150
-Wire Wire Line
-	4700 4250 3900 4250
-Text Notes 500  7400 0    60   ~ 0
-Teensy/Raspeberry Pi \n    comm channel\n
-Wire Wire Line
-	4700 5050 4600 5050
-Wire Wire Line
-	4700 5150 4600 5150
-Text Label 4650 5050 2    60   ~ 0
+Text Notes 500  7350 0    60   ~ 0
+Teensy/Raspberry Pi \n    comm channel\n
+Text Label 4350 5050 2    60   ~ 0
 SCL1
-Text Label 4650 5150 2    60   ~ 0
+Text Label 4450 5150 2    60   ~ 0
 SDA1
 Text Label 4150 1950 0    60   ~ 0
 TX1
@@ -880,22 +763,259 @@ RX1
 $Comp
 L Conn_01x02 J?
 U 1 1 5C5C40DB
-P 1000 7550
-F 0 "J?" H 1000 7650 50  0000 C CNN
-F 1 "Conn_01x02" H 1000 7350 50  0000 C CNN
-F 2 "" H 1000 7550 50  0001 C CNN
-F 3 "" H 1000 7550 50  0001 C CNN
-	1    1000 7550
+P 1000 7500
+F 0 "J?" H 1000 7600 50  0000 C CNN
+F 1 "Conn_01x02" H 1000 7300 50  0000 C CNN
+F 2 "" H 1000 7500 50  0001 C CNN
+F 3 "" H 1000 7500 50  0001 C CNN
+	1    1000 7500
 	1    0    0    -1  
 $EndComp
-Text Notes 1050 7700 0    60   ~ 0
+Text Notes 1050 7650 0    60   ~ 0
 -> RX_Pi\n-> TX_Pi
-Wire Wire Line
-	800  7550 750  7550
-Wire Wire Line
-	800  7650 750  7650
-Text Label 750  7550 2    60   ~ 0
+Text Label 750  7500 2    60   ~ 0
 TX_1
-Text Label 750  7650 2    60   ~ 0
+Text Label 750  7600 2    60   ~ 0
 RX_1
+Text Notes 2200 6500 0    60   ~ 0
+I2C multiplexer\n\n
+$Comp
+L TCA9548A U?
+U 1 1 5C5C5BB5
+P 2700 7100
+F 0 "U?" H 2500 7750 60  0000 C CNN
+F 1 "TCA9548A" H 2700 6450 60  0000 C CNN
+F 2 "" H 2600 7150 60  0001 C CNN
+F 3 "" H 2600 7150 60  0001 C CNN
+	1    2700 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5C5C69D4
+P 2250 6550
+F 0 "#PWR?" H 2250 6400 50  0001 C CNN
+F 1 "VCC" H 2250 6700 50  0000 C CNN
+F 2 "" H 2250 6550 50  0001 C CNN
+F 3 "" H 2250 6550 50  0001 C CNN
+	1    2250 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C5C6A14
+P 2000 6650
+F 0 "#PWR?" H 2000 6400 50  0001 C CNN
+F 1 "GND" H 2000 6500 50  0000 C CNN
+F 2 "" H 2000 6650 50  0001 C CNN
+F 3 "" H 2000 6650 50  0001 C CNN
+	1    2000 6650
+	0    1    1    0   
+$EndComp
+Text Label 2200 6750 2    60   ~ 0
+SDA1
+Text Label 2200 6850 2    60   ~ 0
+SCL1
+$Comp
+L R R?
+U 1 1 5C5C7D15
+P 950 7050
+F 0 "R?" V 1030 7050 50  0000 C CNN
+F 1 "R" V 950 7050 50  0000 C CNN
+F 2 "" V 880 7050 50  0001 C CNN
+F 3 "" H 950 7050 50  0001 C CNN
+	1    950  7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C5C8548
+P 950 6850
+F 0 "R?" V 1030 6850 50  0000 C CNN
+F 1 "R" V 950 6850 50  0000 C CNN
+F 2 "" V 880 6850 50  0001 C CNN
+F 3 "" H 950 6850 50  0001 C CNN
+	1    950  6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5C5C8903
+P 1100 7050
+F 0 "#PWR?" H 1100 6900 50  0001 C CNN
+F 1 "VCC" H 1100 7200 50  0000 C CNN
+F 2 "" H 1100 7050 50  0001 C CNN
+F 3 "" H 1100 7050 50  0001 C CNN
+	1    1100 7050
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5C5C8947
+P 1100 6850
+F 0 "#PWR?" H 1100 6700 50  0001 C CNN
+F 1 "VCC" H 1100 7000 50  0000 C CNN
+F 2 "" H 1100 6850 50  0001 C CNN
+F 3 "" H 1100 6850 50  0001 C CNN
+	1    1100 6850
+	0    1    1    0   
+$EndComp
+Text Label 750  7050 2    60   ~ 0
+SCL1
+Text Label 750  6850 2    60   ~ 0
+SDA1
+Text Notes 500  6750 0    60   ~ 0
+I2C Pull-up\nresistors\n
+NoConn ~ 2250 6950
+Text Label 4550 4950 2    60   ~ 0
+PWM16
+Text Label 4450 4850 2    60   ~ 0
+PWM17
+Wire Wire Line
+	1100 1500 1000 1500
+Wire Wire Line
+	1700 1500 1800 1500
+Wire Wire Line
+	6700 2950 6850 2950
+Wire Wire Line
+	10300 1150 10650 1150
+Wire Wire Line
+	10300 1350 10500 1350
+Wire Wire Line
+	10500 1450 10300 1450
+Wire Wire Line
+	10300 1550 10500 1550
+Wire Wire Line
+	10500 1650 10300 1650
+Wire Wire Line
+	9350 1550 9300 1550
+Wire Wire Line
+	9350 1650 9300 1650
+Wire Wire Line
+	9350 1750 9300 1750
+Wire Wire Line
+	9350 1850 9300 1850
+Connection ~ 10500 1150
+Wire Wire Line
+	10300 2450 10500 2450
+Wire Wire Line
+	10300 2650 10500 2650
+Wire Wire Line
+	10500 2750 10300 2750
+Wire Wire Line
+	10300 2850 10500 2850
+Wire Wire Line
+	10500 2950 10300 2950
+Wire Wire Line
+	10300 3750 10500 3750
+Wire Wire Line
+	10300 3950 10500 3950
+Wire Wire Line
+	10500 4050 10300 4050
+Wire Wire Line
+	10300 4150 10500 4150
+Wire Wire Line
+	10500 4250 10300 4250
+Wire Wire Line
+	10300 5050 10500 5050
+Wire Wire Line
+	10300 5250 10500 5250
+Wire Wire Line
+	10500 5350 10300 5350
+Wire Wire Line
+	10300 5450 10500 5450
+Wire Wire Line
+	10500 5550 10300 5550
+Wire Wire Line
+	3900 2850 4700 2850
+Wire Wire Line
+	3900 2750 4700 2750
+Wire Wire Line
+	3900 2650 4700 2650
+Wire Wire Line
+	3900 2550 4700 2550
+Wire Wire Line
+	3900 2450 4700 2450
+Wire Wire Line
+	3900 2350 4700 2350
+Wire Wire Line
+	3900 2250 4700 2250
+Wire Wire Line
+	3900 2150 4700 2150
+Wire Wire Line
+	3900 3850 4700 3850
+Wire Wire Line
+	6700 5350 6750 5350
+Wire Wire Line
+	6700 5450 6800 5450
+Wire Wire Line
+	6700 5550 6850 5550
+Wire Wire Line
+	6700 5650 6900 5650
+Wire Wire Line
+	3900 3750 4700 3750
+Wire Wire Line
+	4700 1850 3900 1850
+Wire Wire Line
+	3900 1950 4700 1950
+Wire Wire Line
+	4700 2050 3900 2050
+Wire Wire Line
+	4700 2950 3900 2950
+Wire Wire Line
+	4700 3050 3900 3050
+Wire Wire Line
+	3900 3150 4700 3150
+Wire Wire Line
+	4700 3250 3900 3250
+Wire Wire Line
+	3900 3350 4700 3350
+Wire Wire Line
+	4700 3450 3900 3450
+Wire Wire Line
+	4700 3550 3900 3550
+Wire Wire Line
+	4700 3650 3900 3650
+Wire Wire Line
+	3900 3950 4700 3950
+Wire Wire Line
+	4700 4050 3900 4050
+Wire Wire Line
+	3900 4150 4700 4150
+Wire Wire Line
+	4700 4250 3900 4250
+Wire Wire Line
+	4350 5050 4700 5050
+Wire Wire Line
+	4450 5150 4700 5150
+Wire Wire Line
+	800  7500 750  7500
+Wire Wire Line
+	800  7600 750  7600
+Wire Wire Line
+	2000 6650 2250 6650
+Wire Wire Line
+	2250 6750 2200 6750
+Wire Wire Line
+	2250 6850 2200 6850
+Wire Wire Line
+	800  7050 750  7050
+Wire Wire Line
+	750  6850 800  6850
+Wire Notes Line
+	500  7150 1500 7150
+Wire Notes Line
+	1300 7150 1300 6550
+Wire Notes Line
+	1300 6550 500  6550
+Wire Notes Line
+	500  6550 500  7750
+Wire Notes Line
+	500  7750 1500 7750
+Wire Notes Line
+	1500 7750 1500 7150
+Wire Wire Line
+	4700 4950 4550 4950
+Wire Wire Line
+	4700 4850 4450 4850
 $EndSCHEMATC
