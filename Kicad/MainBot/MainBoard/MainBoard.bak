@@ -39,10 +39,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "MainBot PCB by Arnaud Schlumberger"
+Date "2019-02-02"
+Rev "2"
+Comp "Robot Télécom Strasbourg"
 Comment1 ""
 Comment2 ""
 Comment3 ""
