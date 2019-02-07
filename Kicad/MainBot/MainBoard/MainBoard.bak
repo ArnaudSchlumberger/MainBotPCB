@@ -863,4 +863,14 @@ Wire Wire Line
 	3900 4150 4700 4150
 Wire Wire Line
 	4700 4250 3900 4250
+Text Notes 750  6800 0    60   ~ 0
+Teensy/Raspeberry Pi \n    comm channel\n
+Wire Wire Line
+	4700 5050 4600 5050
+Wire Wire Line
+	4700 5150 4600 5150
+Text Label 4650 5050 2    60   ~ 0
+SCL1
+Text Label 4650 5150 2    60   ~ 0
+SDA1
 $EndSCHEMATC
