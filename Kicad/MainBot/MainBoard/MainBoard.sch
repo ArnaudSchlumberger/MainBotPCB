@@ -1335,4 +1335,12 @@ F 3 "" H 1400 5250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	950  5250 1400 5250
+Text Notes 1900 2650 0    60   ~ 0
+Ajouter GND \net VCC\n*
+Text Notes 7000 4150 0    60   ~ 0
+Entrees d'interruption\n
+Text Notes 7050 4300 0    60   ~ 0
+ICSP ?\n
+Text Notes 7050 4000 0    60   ~ 0
+Test LED RGB -> Driver Transistor\n
 $EndSCHEMATC
