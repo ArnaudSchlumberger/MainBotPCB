@@ -1746,4 +1746,6 @@ Wire Notes Line
 	4700 1200 4800 1200
 Text Notes 4700 650  0    60   ~ 0
 SPI1\n
+Text Label 4500 4050 0    60   ~ 0
+SCK1
 $EndSCHEMATC
