@@ -167,7 +167,7 @@ F 1 "VCC" H 1800 1650 50  0000 C CNN
 F 2 "" H 1800 1500 50  0001 C CNN
 F 3 "" H 1800 1500 50  0001 C CNN
 	1    1800 1500
-	-1   0    0    1   
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR010
@@ -1233,13 +1233,11 @@ Text Label 4700 3150 2    60   ~ 0
 3.3V
 Text Label 2450 1100 0    60   ~ 0
 3.3V
-Text Notes 1900 2650 0    60   ~ 0
-Ajouter GND \net VCC\n*
 Text Notes 7000 4150 0    60   ~ 0
 Entrees d'interruption\n
-Text Notes 7050 4300 0    60   ~ 0
+Text Notes 7000 4250 0    60   ~ 0
 ICSP ?\n
-Text Notes 7050 4000 0    60   ~ 0
+Text Notes 7000 4050 0    60   ~ 0
 Test LED RGB -> Driver Transistor\n
 $Comp
 L GND #PWR?
@@ -1541,7 +1539,7 @@ Wire Notes Line
 Wire Notes Line
 	7450 2950 7100 2950
 Text Notes 7100 2950 0    60   ~ 0
-ICSP 27\n
+ICSP 2\n
 Text Label 4350 2950 0    60   ~ 0
 MOSI0
 Text Label 4350 3050 0    60   ~ 0
@@ -1608,4 +1606,144 @@ Text Label 4100 6550 0    60   ~ 0
 A8
 Text Label 4100 6650 0    60   ~ 0
 A9
+$Comp
+L C Tantalum
+U 1 1 5C62C237
+P 1000 1650
+F 0 "Tantalum" H 1025 1750 50  0000 L CNN
+F 1 "10µF" H 1150 1650 50  0000 L CNN
+F 2 "" H 1038 1500 50  0001 C CNN
+F 3 "" H 1000 1650 50  0001 C CNN
+	1    1000 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L C Tantalum
+U 1 1 5C62C384
+P 1800 1650
+F 0 "Tantalum" H 1250 1750 50  0000 L CNN
+F 1 "22µF" H 1600 1750 50  0000 L CNN
+F 2 "" H 1838 1500 50  0001 C CNN
+F 3 "" H 1800 1650 50  0001 C CNN
+	1    1800 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C62C48C
+P 1000 1800
+F 0 "#PWR?" H 1000 1550 50  0001 C CNN
+F 1 "GND" H 1000 1650 50  0000 C CNN
+F 2 "" H 1000 1800 50  0001 C CNN
+F 3 "" H 1000 1800 50  0001 C CNN
+	1    1000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C62C500
+P 1800 1800
+F 0 "#PWR?" H 1800 1550 50  0001 C CNN
+F 1 "GND" H 1800 1650 50  0000 C CNN
+F 2 "" H 1800 1800 50  0001 C CNN
+F 3 "" H 1800 1800 50  0001 C CNN
+	1    1800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_02x03_Counter_Clockwise J?
+U 1 1 5C632352
+P 6300 950
+F 0 "J?" H 6350 1150 50  0000 C CNN
+F 1 "02x03" H 6350 750 50  0000 C CNN
+F 2 "" H 6300 950 50  0001 C CNN
+F 3 "" H 6300 950 50  0001 C CNN
+	1    6300 950 
+	1    0    0    -1  
+$EndComp
+Text Label 6100 850  2    60   ~ 0
+MISO2
+Text Label 6100 950  2    60   ~ 0
+SCK2
+Text Label 6600 950  0    60   ~ 0
+MOSI2
+$Comp
+L GND #PWR?
+U 1 1 5C632E5F
+P 6600 1050
+F 0 "#PWR?" H 6600 800 50  0001 C CNN
+F 1 "GND" H 6600 900 50  0000 C CNN
+F 2 "" H 6600 1050 50  0001 C CNN
+F 3 "" H 6600 1050 50  0001 C CNN
+	1    6600 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5C6330FB
+P 6600 850
+F 0 "#PWR?" H 6600 700 50  0001 C CNN
+F 1 "VCC" H 6600 1000 50  0000 C CNN
+F 2 "" H 6600 850 50  0001 C CNN
+F 3 "" H 6600 850 50  0001 C CNN
+	1    6600 850 
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4750 1200 6900 1200
+Wire Notes Line
+	6900 1200 6900 650 
+Wire Notes Line
+	6900 650  4700 650 
+Wire Notes Line
+	5800 650  5800 1200
+Text Notes 5800 650  0    60   ~ 0
+SPI2\n
+NoConn ~ 6100 1050
+$Comp
+L Conn_02x03_Counter_Clockwise J?
+U 1 1 5C6351F9
+P 5200 950
+F 0 "J?" H 5250 1150 50  0000 C CNN
+F 1 "02x03" H 5250 750 50  0000 C CNN
+F 2 "" H 5200 950 50  0001 C CNN
+F 3 "" H 5200 950 50  0001 C CNN
+	1    5200 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5C635289
+P 5500 850
+F 0 "#PWR?" H 5500 700 50  0001 C CNN
+F 1 "VCC" H 5500 1000 50  0000 C CNN
+F 2 "" H 5500 850 50  0001 C CNN
+F 3 "" H 5500 850 50  0001 C CNN
+	1    5500 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C6352E7
+P 5500 1050
+F 0 "#PWR?" H 5500 800 50  0001 C CNN
+F 1 "GND" H 5500 900 50  0000 C CNN
+F 2 "" H 5500 1050 50  0001 C CNN
+F 3 "" H 5500 1050 50  0001 C CNN
+	1    5500 1050
+	0    -1   -1   0   
+$EndComp
+Text Label 5000 850  2    60   ~ 0
+MISO1
+Text Label 5000 950  2    60   ~ 0
+SCK1
+Text Label 5500 950  0    60   ~ 0
+MOSI1
+NoConn ~ 5000 1050
+Wire Notes Line
+	4700 650  4700 1200
+Wire Notes Line
+	4700 1200 4800 1200
+Text Notes 4700 650  0    60   ~ 0
+SPI1\n
 $EndSCHEMATC

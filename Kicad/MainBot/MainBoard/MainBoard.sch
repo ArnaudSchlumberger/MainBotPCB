@@ -1650,4 +1650,102 @@ F 3 "" H 1800 1800 50  0001 C CNN
 	1    1800 1800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Conn_02x03_Counter_Clockwise J?
+U 1 1 5C632352
+P 6300 950
+F 0 "J?" H 6350 1150 50  0000 C CNN
+F 1 "02x03" H 6350 750 50  0000 C CNN
+F 2 "" H 6300 950 50  0001 C CNN
+F 3 "" H 6300 950 50  0001 C CNN
+	1    6300 950 
+	1    0    0    -1  
+$EndComp
+Text Label 6100 850  2    60   ~ 0
+MISO2
+Text Label 6100 950  2    60   ~ 0
+SCK2
+Text Label 6600 950  0    60   ~ 0
+MOSI2
+$Comp
+L GND #PWR?
+U 1 1 5C632E5F
+P 6600 1050
+F 0 "#PWR?" H 6600 800 50  0001 C CNN
+F 1 "GND" H 6600 900 50  0000 C CNN
+F 2 "" H 6600 1050 50  0001 C CNN
+F 3 "" H 6600 1050 50  0001 C CNN
+	1    6600 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5C6330FB
+P 6600 850
+F 0 "#PWR?" H 6600 700 50  0001 C CNN
+F 1 "VCC" H 6600 1000 50  0000 C CNN
+F 2 "" H 6600 850 50  0001 C CNN
+F 3 "" H 6600 850 50  0001 C CNN
+	1    6600 850 
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4750 1200 6900 1200
+Wire Notes Line
+	6900 1200 6900 650 
+Wire Notes Line
+	6900 650  4700 650 
+Wire Notes Line
+	5800 650  5800 1200
+Text Notes 5800 650  0    60   ~ 0
+SPI2\n
+NoConn ~ 6100 1050
+$Comp
+L Conn_02x03_Counter_Clockwise J?
+U 1 1 5C6351F9
+P 5200 950
+F 0 "J?" H 5250 1150 50  0000 C CNN
+F 1 "02x03" H 5250 750 50  0000 C CNN
+F 2 "" H 5200 950 50  0001 C CNN
+F 3 "" H 5200 950 50  0001 C CNN
+	1    5200 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5C635289
+P 5500 850
+F 0 "#PWR?" H 5500 700 50  0001 C CNN
+F 1 "VCC" H 5500 1000 50  0000 C CNN
+F 2 "" H 5500 850 50  0001 C CNN
+F 3 "" H 5500 850 50  0001 C CNN
+	1    5500 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C6352E7
+P 5500 1050
+F 0 "#PWR?" H 5500 800 50  0001 C CNN
+F 1 "GND" H 5500 900 50  0000 C CNN
+F 2 "" H 5500 1050 50  0001 C CNN
+F 3 "" H 5500 1050 50  0001 C CNN
+	1    5500 1050
+	0    -1   -1   0   
+$EndComp
+Text Label 5000 850  2    60   ~ 0
+MISO1
+Text Label 5000 950  2    60   ~ 0
+SCK1
+Text Label 5500 950  0    60   ~ 0
+MOSI1
+NoConn ~ 5000 1050
+Wire Notes Line
+	4700 650  4700 1200
+Wire Notes Line
+	4700 1200 4800 1200
+Text Notes 4700 650  0    60   ~ 0
+SPI1\n
+Text Label 4500 4050 0    60   ~ 0
+SCK1
 $EndSCHEMATC
