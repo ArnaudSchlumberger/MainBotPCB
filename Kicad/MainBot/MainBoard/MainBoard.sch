@@ -2443,4 +2443,10 @@ Wire Notes Line
 	500  6250 1600 6250
 Wire Notes Line
 	1600 6850 500  6850
+Text Label 950  2600 2    60   ~ 0
+ADDR_0
+Text Label 950  2700 2    60   ~ 0
+ADDR_1
+Text Label 950  2800 2    60   ~ 0
+ADDR_2
 $EndSCHEMATC
