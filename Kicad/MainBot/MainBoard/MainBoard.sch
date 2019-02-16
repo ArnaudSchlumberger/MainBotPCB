@@ -710,9 +710,9 @@ $EndComp
 Text Notes 2700 11100 0    60   ~ 0
 -> RX_Pi\n-> TX_Pi
 Text Label 2400 10950 2    60   ~ 0
-TX_1
+TX_2
 Text Label 2400 11050 2    60   ~ 0
-RX_1
+RX_2
 Text Notes 500  2100 0    60   ~ 0
 I2C multiplexer\n\n
 $Comp
@@ -1247,10 +1247,6 @@ Text Label 6650 3200 0    60   ~ 0
 MOSI1
 Text Label 6600 3300 0    60   ~ 0
 MISO1
-Text Label 6600 3500 0    60   ~ 0
-SCL2
-Text Label 6550 3600 0    60   ~ 0
-SDA2
 Text Label 6600 3900 0    60   ~ 0
 RX3
 Text Label 6600 4000 0    60   ~ 0

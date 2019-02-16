@@ -2412,4 +2412,34 @@ Text Label 2550 3750 2    60   ~ 0
 SCA1
 Text Notes 4200 1800 0    60   ~ 0
 Modes des drivers pas à pas ?\n
+Text Label 6400 7100 0    60   ~ 0
+ADDR_0
+Text Label 6400 7200 0    60   ~ 0
+ADDR_1
+Text Label 6400 7300 0    60   ~ 0
+ADDR_2
+Text Label 14750 8900 0    60   ~ 0
+PWM_1
+Text Label 14750 9000 0    60   ~ 0
+PWM_2
+Text Label 14750 9100 0    60   ~ 0
+PWM_3
+Text Label 14750 9200 0    60   ~ 0
+PWM_4
+Text Label 14600 8900 2    60   ~ 0
+DC_DIR_1
+Text Label 14600 9000 2    60   ~ 0
+DC_DIR_2
+Text Label 14600 9100 2    60   ~ 0
+DC_DIR_3
+Text Label 14600 9200 2    60   ~ 0
+DC_DIR_4
+Wire Wire Line
+	14600 8900 14750 8900
+Wire Wire Line
+	14600 9000 14750 9000
+Wire Wire Line
+	14600 9100 14750 9100
+Wire Wire Line
+	14600 9200 14750 9200
 $EndSCHEMATC
