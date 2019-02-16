@@ -952,11 +952,7 @@ Text Label 7300 4500 2    60   ~ 0
 3.3V
 Text Label 850  9400 0    60   ~ 0
 3.3V
-Text Notes 3850 2250 0    60   ~ 0
-Entrees d'interruption\n
-Text Notes 3850 2350 0    60   ~ 0
-ICSP ?\n
-Text Notes 3850 2150 0    60   ~ 0
+Text Notes 4200 1400 0    60   ~ 0
 Test LED RGB -> Driver Transistor\n
 $Comp
 L GND #PWR?
@@ -2284,69 +2280,6 @@ Wire Wire Line
 	9900 6000 9300 6000
 Wire Wire Line
 	9300 6100 9900 6100
-Text Label 2450 1350 2    60   ~ 0
-A0
-Text Label 2450 1450 2    60   ~ 0
-A1
-Text Label 2450 1550 2    60   ~ 0
-A2
-Text Label 2450 1650 2    60   ~ 0
-A3
-Text Label 2450 1750 2    60   ~ 0
-A4
-Text Label 2450 1850 2    60   ~ 0
-A5
-Text Label 2450 1950 2    60   ~ 0
-A6
-Text Label 2450 2050 2    60   ~ 0
-A7
-Text Label 2450 2150 2    60   ~ 0
-A8
-Text Label 2450 2250 2    60   ~ 0
-A9
-Text Label 2450 2350 2    60   ~ 0
-A10
-Text Label 2450 2450 2    60   ~ 0
-A11
-Text Label 2450 2550 2    60   ~ 0
-A12
-Text Label 2950 2550 0    60   ~ 0
-A13
-Text Label 2950 2450 0    60   ~ 0
-A14
-Text Label 2950 2350 0    60   ~ 0
-A15
-Text Label 2950 2250 0    60   ~ 0
-A16
-Text Label 2950 2150 0    60   ~ 0
-A17
-Text Label 2950 2050 0    60   ~ 0
-A18
-Text Label 2950 1950 0    60   ~ 0
-A19
-Text Label 2950 1850 0    60   ~ 0
-A20
-Text Label 2950 1750 0    60   ~ 0
-A21
-Text Label 2950 1650 0    60   ~ 0
-A22
-Text Label 2950 1550 0    60   ~ 0
-A23
-$Comp
-L Conn_02x13_Counter_Clockwise J?
-U 1 1 5C64862D
-P 2650 1950
-F 0 "J?" H 2700 2650 50  0000 C CNN
-F 1 "02x13_Analog_In" H 2700 1250 50  0000 C CNN
-F 2 "" H 2650 1950 50  0001 C CNN
-F 3 "" H 2650 1950 50  0001 C CNN
-	1    2650 1950
-	1    0    0    -1  
-$EndComp
-Text Label 2950 1450 0    60   ~ 0
-A24
-Text Label 2950 1350 0    60   ~ 0
-A_REF
 $Comp
 L Conn_01x02 J?
 U 1 1 5C649698
@@ -2373,8 +2306,6 @@ Wire Wire Line
 Text Notes 2350 850  0    60   ~ 0
 DAC0 = A21\nDAC1 = A22\n
 Wire Notes Line
-	3250 2700 3250 650 
-Wire Notes Line
 	3250 650  2250 650 
 Wire Notes Line
 	2250 500  2250 5650
@@ -2396,49 +2327,6 @@ Wire Notes Line
 	5850 3400 5900 3400
 Wire Notes Line
 	5850 4200 5900 4200
-$Comp
-L Conn_02x05_Counter_Clockwise J?
-U 1 1 5C6567B2
-P 3350 3300
-F 0 "J?" H 3400 3600 50  0000 C CNN
-F 1 "02x05_PWM" H 3400 3000 50  0000 C CNN
-F 2 "" H 3350 3300 50  0001 C CNN
-F 3 "" H 3350 3300 50  0001 C CNN
-	1    3350 3300
-	1    0    0    -1  
-$EndComp
-Text Label 3150 3100 2    60   ~ 0
-PWM_1
-Text Label 3150 3200 2    60   ~ 0
-PWM_2
-Text Label 3150 3300 2    60   ~ 0
-PWM_3
-Text Label 3150 3400 2    60   ~ 0
-PWM_4
-Text Label 3150 3500 2    60   ~ 0
-PWM_5
-Text Label 3650 3500 0    60   ~ 0
-PWM_6
-Text Label 3650 3400 0    60   ~ 0
-PWM_7
-Text Label 3650 3300 0    60   ~ 0
-PWM_8
-Text Label 3650 3200 0    60   ~ 0
-PWM_9
-Text Label 3650 3100 0    60   ~ 0
-PWM_10
-Wire Notes Line
-	2250 2700 3250 2700
-Text Notes 2700 3100 0    60   ~ 0
-(2)\n
-Text Notes 2700 3500 0    60   ~ 0
-(6)\n
-Text Notes 3950 3500 0    60   ~ 0
-(7)\n
-Text Notes 4000 3100 0    60   ~ 0
-(29)\n
-Text Notes 4000 3200 0    60   ~ 0
-(10)\n
 Wire Notes Line
 	500  6250 1600 6250
 Wire Notes Line
@@ -2449,8 +2337,79 @@ Text Label 950  2700 2    60   ~ 0
 ADDR_1
 Text Label 950  2800 2    60   ~ 0
 ADDR_2
-Text Notes 3850 2500 0    60   ~ 0
+Text Notes 4200 1500 0    60   ~ 0
 Ajouter canal multiple I2C au cas où\n
-Text Notes 3900 2650 0    60   ~ 0
+Text Notes 4200 1600 0    60   ~ 0
 Dynamixel ?\n
+Text Notes 4200 1700 0    60   ~ 0
+Nettoyage des noms des nets\n
+$Comp
+L Conn_02x04_Counter_Clockwise J?
+U 1 1 5C68FB43
+P 2750 3750
+F 0 "J?" H 2800 3950 50  0000 C CNN
+F 1 "02x04_I2C" H 2800 3450 50  0000 C CNN
+F 2 "" H 2750 3750 50  0001 C CNN
+F 3 "" H 2750 3750 50  0001 C CNN
+	1    2750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C690B58
+P 2550 3950
+F 0 "#PWR?" H 2550 3700 50  0001 C CNN
+F 1 "GND" H 2550 3800 50  0000 C CNN
+F 2 "" H 2550 3950 50  0001 C CNN
+F 3 "" H 2550 3950 50  0001 C CNN
+	1    2550 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C690D42
+P 3050 3950
+F 0 "#PWR?" H 3050 3700 50  0001 C CNN
+F 1 "GND" H 3050 3800 50  0000 C CNN
+F 2 "" H 3050 3950 50  0001 C CNN
+F 3 "" H 3050 3950 50  0001 C CNN
+	1    3050 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5C690FE2
+P 3150 3850
+F 0 "#PWR?" H 3150 3700 50  0001 C CNN
+F 1 "VCC" H 3150 4000 50  0000 C CNN
+F 2 "" H 3150 3850 50  0001 C CNN
+F 3 "" H 3150 3850 50  0001 C CNN
+	1    3150 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5C6910A5
+P 2450 3850
+F 0 "#PWR?" H 2450 3700 50  0001 C CNN
+F 1 "VCC" H 2450 4000 50  0000 C CNN
+F 2 "" H 2450 3850 50  0001 C CNN
+F 3 "" H 2450 3850 50  0001 C CNN
+	1    2450 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 3850 2550 3850
+Wire Wire Line
+	3050 3850 3150 3850
+Text Label 2550 3650 2    60   ~ 0
+SDA1
+Text Label 3050 3650 0    60   ~ 0
+SDA1
+Text Label 3050 3750 0    60   ~ 0
+SCA1
+Text Label 2550 3750 2    60   ~ 0
+SCA1
+Text Notes 4200 1800 0    60   ~ 0
+Modes des drivers pas à pas ?\n
 $EndSCHEMATC
