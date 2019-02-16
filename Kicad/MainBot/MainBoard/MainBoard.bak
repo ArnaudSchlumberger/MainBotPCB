@@ -952,11 +952,11 @@ Text Label 7300 4500 2    60   ~ 0
 3.3V
 Text Label 850  9400 0    60   ~ 0
 3.3V
-Text Notes 5900 8900 0    60   ~ 0
+Text Notes 3850 2250 0    60   ~ 0
 Entrees d'interruption\n
-Text Notes 5900 9000 0    60   ~ 0
+Text Notes 3850 2350 0    60   ~ 0
 ICSP ?\n
-Text Notes 5900 8800 0    60   ~ 0
+Text Notes 3850 2150 0    60   ~ 0
 Test LED RGB -> Driver Transistor\n
 $Comp
 L GND #PWR?
@@ -2443,4 +2443,14 @@ Wire Notes Line
 	500  6250 1600 6250
 Wire Notes Line
 	1600 6850 500  6850
+Text Label 950  2600 2    60   ~ 0
+ADDR_0
+Text Label 950  2700 2    60   ~ 0
+ADDR_1
+Text Label 950  2800 2    60   ~ 0
+ADDR_2
+Text Notes 3850 2500 0    60   ~ 0
+Ajouter canal multiple I2C au cas où\n
+Text Notes 3900 2650 0    60   ~ 0
+Dynamixel ?\n
 $EndSCHEMATC
