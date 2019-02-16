@@ -197,14 +197,6 @@ Text Notes 850  750  0    60   ~ 0
 PWR SETUP\n
 Text Notes 900  1250 0    60   ~ 0
 +3.3V Regulator\n
-Text Label 7300 3400 2    60   ~ 0
-PWM_1
-Text Label 7300 3500 2    60   ~ 0
-PWM_2
-Text Label 7300 3600 2    60   ~ 0
-PWM_3
-Text Label 7300 3700 2    60   ~ 0
-PWM_4
 $Comp
 L GND #PWR012
 U 1 1 5C4EDCF6
@@ -222,16 +214,10 @@ Text Label 7300 3900 2    60   ~ 0
 PWM_6
 Text Label 7300 4000 2    60   ~ 0
 PWM_7
-Text Label 7300 4100 2    60   ~ 0
-PWM_8
-Text Label 7300 4200 2    60   ~ 0
-PWM_9
 Text Label 7250 5100 2    60   ~ 0
 PWM_10
 Text Label 7250 5200 2    60   ~ 0
 PWM_11
-Text Label 9500 7000 0    60   ~ 0
-PWM_12
 Text Label 9450 6900 0    60   ~ 0
 PWM_13
 Text Label 9400 6800 0    60   ~ 0
@@ -692,10 +678,6 @@ Text Label 6950 6400 2    60   ~ 0
 SCL1
 Text Label 7050 6500 2    60   ~ 0
 SDA1
-Text Label 6900 3300 0    60   ~ 0
-TX1
-Text Label 6950 3200 0    60   ~ 0
-RX1
 $Comp
 L Conn_01x02 J1
 U 1 1 5C5C40DB
@@ -887,8 +869,6 @@ Text Label 6200 7900 0    60   ~ 0
 PWM_14
 Text Label 6200 7800 0    60   ~ 0
 PWM_13
-Text Label 6200 7700 0    60   ~ 0
-PWM_12
 Text Label 9350 6400 0    60   ~ 0
 Vin
 Text Label 9350 6500 0    60   ~ 0
@@ -1281,20 +1261,6 @@ Text Label 6200 6700 0    60   ~ 0
 A21
 Text Label 6200 6800 0    60   ~ 0
 A22
-Text Label 6200 7100 0    60   ~ 0
-A0
-Text Label 6200 7200 0    60   ~ 0
-A1
-Text Label 6200 7300 0    60   ~ 0
-A2
-Text Label 6700 7400 0    60   ~ 0
-A3
-Text Label 6700 7500 0    60   ~ 0
-A4
-Text Label 6700 7600 0    60   ~ 0
-A5
-Text Label 6700 7700 0    60   ~ 0
-A6
 Text Label 6700 7800 0    60   ~ 0
 A7
 Text Label 6700 7900 0    60   ~ 0
@@ -2316,13 +2282,11 @@ Wire Notes Line
 Wire Notes Line
 	2250 5650 500  5650
 Wire Notes Line
-	5850 3400 5850 4200
-Text Notes 5850 3900 1    60   ~ 0
+	5550 3400 5550 4200
+Text Notes 5550 3900 1    60   ~ 0
 PWM\n
 Wire Notes Line
-	5850 3400 5900 3400
-Wire Notes Line
-	5850 4200 5900 4200
+	5750 3400 5900 3400
 Wire Notes Line
 	500  6250 1600 6250
 Wire Notes Line
@@ -2414,28 +2378,58 @@ Text Label 6400 7200 0    60   ~ 0
 ADDR_1
 Text Label 6400 7300 0    60   ~ 0
 ADDR_2
-Text Label 14750 8900 0    60   ~ 0
-PWM_1
-Text Label 14750 9000 0    60   ~ 0
-PWM_2
-Text Label 14750 9100 0    60   ~ 0
-PWM_3
-Text Label 14750 9200 0    60   ~ 0
-PWM_4
-Text Label 14600 8900 2    60   ~ 0
+Wire Notes Line
+	5750 3400 5750 3700
+Text Notes 5700 3350 3    60   ~ 0
+DC PWM\n
+Wire Notes Line
+	5750 3700 5900 3700
+Wire Notes Line
+	5550 3400 5600 3400
+Wire Notes Line
+	5550 4200 5600 4200
+Wire Notes Line
+	5900 4100 5800 4100
+Wire Notes Line
+	5800 4100 5800 4200
+Wire Notes Line
+	5800 4200 5900 4200
+Text Notes 5800 4050 3    60   ~ 0
+Ra.Pi\n
+Wire Notes Line
+	5900 3300 5850 3300
+Wire Notes Line
+	5850 3300 5850 3200
+Wire Notes Line
+	5850 3200 5900 3200
+Text Notes 5850 3300 2    60   ~ 0
+SPI 1
+Wire Notes Line
+	5900 4300 5850 4300
+Wire Notes Line
+	5850 4300 5850 4400
+Wire Notes Line
+	5850 4400 5900 4400
+Text Notes 5800 4400 2    60   ~ 0
+SPI 2\n
+Text Label 7250 3400 2    60   ~ 0
+DC_PWM_1
+Text Label 7250 3500 2    60   ~ 0
+DC_PWM_2
+Text Label 7250 3600 2    60   ~ 0
+DC_PWM_3
+Text Label 7250 3700 2    60   ~ 0
+DC_PWM_4
+Text Label 9350 7000 0    60   ~ 0
+47
+Text Label 6200 7700 0    60   ~ 0
+47
+Text Label 6700 7400 0    60   ~ 0
 DC_DIR_1
-Text Label 14600 9000 2    60   ~ 0
+Text Label 6700 7500 0    60   ~ 0
 DC_DIR_2
-Text Label 14600 9100 2    60   ~ 0
+Text Label 6700 7600 0    60   ~ 0
 DC_DIR_3
-Text Label 14600 9200 2    60   ~ 0
+Text Label 6700 7700 0    60   ~ 0
 DC_DIR_4
-Wire Wire Line
-	14600 8900 14750 8900
-Wire Wire Line
-	14600 9000 14750 9000
-Wire Wire Line
-	14600 9100 14750 9100
-Wire Wire Line
-	14600 9200 14750 9200
 $EndSCHEMATC
