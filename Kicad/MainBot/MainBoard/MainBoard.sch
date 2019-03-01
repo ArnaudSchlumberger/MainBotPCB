@@ -39,9 +39,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "MainBot PCB by Arnaud Schlumberger"
-Date "2019-02-02"
-Rev "2"
+Title "MainBot Motherboardby Arnaud Schlumberger"
+Date "2019-03-01"
+Rev "1"
 Comp "Robot Télécom Strasbourg"
 Comment1 ""
 Comment2 ""
@@ -906,10 +906,6 @@ F 3 "" H 7000 5700 50  0001 C CNN
 	1    7000 5700
 	0    -1   -1   0   
 $EndComp
-Text Label 6500 4500 0    60   ~ 0
-3.3V
-Text Label 7300 4500 2    60   ~ 0
-3.3V
 Text Label 850  9400 0    60   ~ 0
 3.3V
 $Comp
@@ -2995,42 +2991,42 @@ AREF
 $Comp
 L Conn_01x03 J?
 U 1 1 5C7019BF
-P 11400 10850
-F 0 "J?" H 11400 11050 50  0000 C CNN
-F 1 "Conn_01x03" H 11400 10650 50  0000 C CNN
-F 2 "" H 11400 10850 50  0001 C CNN
-F 3 "" H 11400 10850 50  0001 C CNN
-	1    11400 10850
+P 11350 6000
+F 0 "J?" H 11350 6200 50  0000 C CNN
+F 1 "Conn_01x03" H 11350 5800 50  0000 C CNN
+F 2 "" H 11350 6000 50  0001 C CNN
+F 3 "" H 11350 6000 50  0001 C CNN
+	1    11350 6000
 	1    0    0    -1  
 $EndComp
-Text Label 11200 10850 2    60   ~ 0
+Text Label 11150 6000 2    60   ~ 0
 AREF
 $Comp
 L VCC #PWR?
 U 1 1 5C702C85
-P 11100 10750
-F 0 "#PWR?" H 11100 10600 50  0001 C CNN
-F 1 "VCC" H 11100 10900 50  0000 C CNN
-F 2 "" H 11100 10750 50  0001 C CNN
-F 3 "" H 11100 10750 50  0001 C CNN
-	1    11100 10750
+P 11050 5900
+F 0 "#PWR?" H 11050 5750 50  0001 C CNN
+F 1 "VCC" H 11050 6050 50  0000 C CNN
+F 2 "" H 11050 5900 50  0001 C CNN
+F 3 "" H 11050 5900 50  0001 C CNN
+	1    11050 5900
 	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5C702D2D
-P 11100 10950
-F 0 "#PWR?" H 11100 10700 50  0001 C CNN
-F 1 "GND" H 11100 10800 50  0000 C CNN
-F 2 "" H 11100 10950 50  0001 C CNN
-F 3 "" H 11100 10950 50  0001 C CNN
-	1    11100 10950
+P 11050 6100
+F 0 "#PWR?" H 11050 5850 50  0001 C CNN
+F 1 "GND" H 11050 5950 50  0000 C CNN
+F 2 "" H 11050 6100 50  0001 C CNN
+F 3 "" H 11050 6100 50  0001 C CNN
+	1    11050 6100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	11200 10750 11100 10750
+	11150 5900 11050 5900
 Wire Wire Line
-	11200 10950 11100 10950
+	11150 6100 11050 6100
 $Comp
 L GND #PWR?
 U 1 1 5C705682
@@ -3044,14 +3040,6 @@ F 3 "" H 9700 6500 50  0001 C CNN
 $EndComp
 Text Label 9300 6400 0    60   ~ 0
 Vin
-Wire Notes Line
-	10150 4300 10200 4300
-Wire Notes Line
-	10200 4300 10200 4200
-Wire Notes Line
-	10200 4200 10150 4200
-Text Notes 10500 4300 2    60   ~ 0
-Power \nSupply\n
 Wire Wire Line
 	14550 7800 14550 7900
 Wire Wire Line
@@ -3439,4 +3427,53 @@ Wire Notes Line
 Text Notes 10750 3900 3    157  ~ 0
 Backside pins
 NoConn ~ 9300 5900
+$Comp
+L VCC #PWR?
+U 1 1 5C7BED09
+P 6500 4500
+F 0 "#PWR?" H 6500 4350 50  0001 C CNN
+F 1 "VCC" H 6500 4650 50  0000 C CNN
+F 2 "" H 6500 4500 50  0001 C CNN
+F 3 "" H 6500 4500 50  0001 C CNN
+	1    6500 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5C7BEDCD
+P 7300 4500
+F 0 "#PWR?" H 7300 4350 50  0001 C CNN
+F 1 "VCC" H 7300 4650 50  0000 C CNN
+F 2 "" H 7300 4500 50  0001 C CNN
+F 3 "" H 7300 4500 50  0001 C CNN
+	1    7300 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x02 J?
+U 1 1 5C7C06FB
+P 10400 6400
+F 0 "J?" H 10400 6500 50  0000 C CNN
+F 1 "01x02" H 10400 6200 50  0000 C CNN
+F 2 "" H 10400 6400 50  0001 C CNN
+F 3 "" H 10400 6400 50  0001 C CNN
+	1    10400 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 6400 10200 6400
+Wire Wire Line
+	10150 6400 10150 6500
+Wire Wire Line
+	10150 6500 10200 6500
+Connection ~ 10150 6400
+Text Notes 11300 6550 2    39   ~ 0
+Vin requires at least 3.6V, \nmore than regulator output:\n optional Not Connect
+NoConn ~ 9300 6300
+Text Notes 12300 6000 2    39   ~ 0
+Optional connections to AREF\n
+Text Notes 9700 5900 2    20   ~ 0
+No 5V power supply: NC\n
+Text Notes 9500 6300 2    20   ~ 0
+No use: NC
 $EndSCHEMATC
