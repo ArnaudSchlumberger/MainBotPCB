@@ -3307,4 +3307,8 @@ Wire Wire Line
 	3950 3550 4000 3550
 Text Notes 5300 2650 2    60   ~ 0
 Dynamixel\n
+Text Label 6950 6700 2    60   ~ 0
+DAC0
+Text Label 6950 6800 2    60   ~ 0
+DAC1
 $EndSCHEMATC

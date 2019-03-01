@@ -2035,15 +2035,11 @@ Wire Wire Line
 Wire Wire Line
 	750  9400 850  9400
 Wire Wire Line
-	9300 4400 9750 4400
+	9300 4400 10000 4400
 Wire Wire Line
-	9300 4500 9750 4500
+	9300 4500 10000 4500
 Wire Wire Line
-	9300 4600 9750 4600
-Wire Notes Line
-	9700 4300 9700 4650
-Wire Notes Line
-	9700 4650 10050 4650
+	9300 4600 10000 4600
 Wire Notes Line
 	10050 4650 10050 4300
 Wire Notes Line
@@ -2194,30 +2190,22 @@ Text Label 9900 7200 0    60   ~ 0
 A4
 Text Label 9900 7300 0    60   ~ 0
 A3
-Text Label 9900 6100 0    60   ~ 0
+Text Label 9400 6100 0    60   ~ 0
 A10
-Text Label 9900 6000 0    60   ~ 0
+Text Label 9400 6000 0    60   ~ 0
 A11
 Text Label 9900 5800 0    60   ~ 0
 A26
 Text Label 9900 5700 0    60   ~ 0
 A25
-Text Label 9900 3900 0    60   ~ 0
+Text Label 9600 3900 0    60   ~ 0
 A23
-Text Label 9900 3800 0    60   ~ 0
+Text Label 9600 3800 0    60   ~ 0
 A24
-Wire Wire Line
-	9900 3800 9300 3800
-Wire Wire Line
-	9300 3900 9900 3900
 Wire Wire Line
 	9900 5700 9300 5700
 Wire Wire Line
 	9900 5800 9300 5800
-Wire Wire Line
-	9900 6000 9300 6000
-Wire Wire Line
-	9300 6100 9900 6100
 $Comp
 L Conn_01x02 J?
 U 1 1 5C649698
@@ -3002,9 +2990,7 @@ Wire Notes Line
 	15150 8350 15150 8550
 Text Notes 15150 8550 0    60   ~ 0
 Disabling\npins
-Wire Wire Line
-	9300 6200 9450 6200
-Text Label 9450 6200 0    60   ~ 0
+Text Label 9400 6200 0    60   ~ 0
 AREF
 $Comp
 L Conn_01x03 J?
@@ -3311,4 +3297,146 @@ Text Label 6950 6700 2    60   ~ 0
 DAC0
 Text Label 6950 6800 2    60   ~ 0
 DAC1
+$Comp
+L Conn_01x04 J?
+U 1 1 5C7AE056
+P 9600 5200
+F 0 "J?" H 9700 5000 50  0000 C CNN
+F 1 "01x04" H 9600 4900 50  0000 C CNN
+F 2 "" H 9600 5200 50  0001 C CNN
+F 3 "" H 9600 5200 50  0001 C CNN
+	1    9600 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 5100 9400 5100
+Wire Wire Line
+	9400 5200 9300 5200
+Wire Wire Line
+	9300 5300 9400 5300
+Wire Wire Line
+	9300 5400 9400 5400
+$Comp
+L Conn_01x03 J?
+U 1 1 5C7AE844
+P 9900 4900
+F 0 "J?" H 10000 4800 50  0000 C CNN
+F 1 "01x03" H 9900 4700 50  0000 C CNN
+F 2 "" H 9900 4900 50  0001 C CNN
+F 3 "" H 9900 4900 50  0001 C CNN
+	1    9900 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 4800 9700 4800
+Wire Wire Line
+	9700 4900 9300 4900
+Wire Wire Line
+	9300 5000 9700 5000
+$Comp
+L Conn_01x04 J?
+U 1 1 5C7B11E6
+P 10200 4500
+F 0 "J?" H 10300 4300 50  0000 C CNN
+F 1 "01x04" H 10200 4200 50  0000 C CNN
+F 2 "" H 10200 4500 50  0001 C CNN
+F 3 "" H 10200 4500 50  0001 C CNN
+	1    10200 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 4700 9300 4700
+$Comp
+L Conn_01x04 J?
+U 1 1 5C7B2782
+P 9950 3900
+F 0 "J?" H 9950 4100 50  0000 C CNN
+F 1 "Conn_01x04" H 10250 4100 50  0000 C CNN
+F 2 "" H 9950 3900 50  0001 C CNN
+F 3 "" H 9950 3900 50  0001 C CNN
+	1    9950 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 4100 9750 4100
+Wire Wire Line
+	9750 4000 9300 4000
+Wire Wire Line
+	9300 3900 9750 3900
+Wire Wire Line
+	9750 3800 9300 3800
+$Comp
+L Conn_01x03 J?
+U 1 1 5C7B4394
+P 9500 3600
+F 0 "J?" H 9700 3600 50  0000 C CNN
+F 1 "01x03" V 9600 3600 50  0000 C CNN
+F 2 "" H 9500 3600 50  0001 C CNN
+F 3 "" H 9500 3600 50  0001 C CNN
+	1    9500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04 J?
+U 1 1 5C7B4A77
+P 9900 3200
+F 0 "J?" H 9900 3400 50  0000 C CNN
+F 1 "01x04" V 10000 3050 50  0000 C CNN
+F 2 "" H 9900 3200 50  0001 C CNN
+F 3 "" H 9900 3200 50  0001 C CNN
+	1    9900 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 3400 9700 3400
+Wire Wire Line
+	9700 3300 9300 3300
+Wire Wire Line
+	9300 3200 9700 3200
+Wire Wire Line
+	9700 3100 9300 3100
+$Comp
+L Conn_01x03 J?
+U 1 1 5C7B57B2
+P 9850 6100
+F 0 "J?" H 9850 6300 50  0000 C CNN
+F 1 "Conn_01x03" H 9850 5900 50  0000 C CNN
+F 2 "" H 9850 6100 50  0001 C CNN
+F 3 "" H 9850 6100 50  0001 C CNN
+	1    9850 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 6000 9300 6000
+Wire Wire Line
+	9300 6100 9650 6100
+Wire Wire Line
+	9650 6200 9300 6200
+Wire Wire Line
+	9300 5500 9350 5500
+Wire Wire Line
+	9350 5500 9350 5600
+Wire Wire Line
+	9300 5600 9500 5600
+$Comp
+L GND #PWR?
+U 1 1 5C7B6E99
+P 9500 5600
+F 0 "#PWR?" H 9500 5350 50  0001 C CNN
+F 1 "GND" V 9500 5400 50  0000 C CNN
+F 2 "" H 9500 5600 50  0001 C CNN
+F 3 "" H 9500 5600 50  0001 C CNN
+	1    9500 5600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9350 5600
+Wire Notes Line
+	10150 3100 10550 3100
+Wire Notes Line
+	10550 3100 10550 6200
+Wire Notes Line
+	10550 6200 10400 6200
+Text Notes 10750 3900 3    157  ~ 0
+Backside pins
+NoConn ~ 9300 5900
 $EndSCHEMATC
