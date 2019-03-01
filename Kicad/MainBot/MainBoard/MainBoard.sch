@@ -3262,4 +3262,25 @@ Connection ~ 6200 5000
 Connection ~ 6200 5100
 Connection ~ 6200 5200
 Connection ~ 6200 5300
+$Comp
+L Conn_01x04 J?
+U 1 1 5C79CEF9
+P 15200 6700
+F 0 "J?" H 15200 6900 50  0000 C CNN
+F 1 "Conn_01x04" H 15200 6400 50  0000 C CNN
+F 2 "" H 15200 6700 50  0001 C CNN
+F 3 "" H 15200 6700 50  0001 C CNN
+	1    15200 6700
+	1    0    0    -1  
+$EndComp
+Text Label 15000 6600 2    60   ~ 0
+FAU_1
+Text Label 15000 6700 2    60   ~ 0
+FAU_2
+Text Label 15000 6800 2    60   ~ 0
+FAU_3
+Text Label 15000 6900 2    60   ~ 0
+FAU_4
+Text Notes 15500 6500 2    60   ~ 0
+Steppers Fault Pins\n
 $EndSCHEMATC
