@@ -994,7 +994,6 @@ Text Label 1850 2800 0    60   ~ 0
 M_SD4
 Text Label 1850 3000 0    60   ~ 0
 M_SD3
-NoConn ~ 950  2500
 Text Label 1650 10250 2    60   ~ 0
 M_SD2
 Text Label 1650 10050 2    60   ~ 0
@@ -3474,4 +3473,32 @@ Text Label 1600 5550 0    39   ~ 0
 M_SC4
 Text Label 1600 5450 0    39   ~ 0
 M_SD4
+Text Label 950  2500 2    59   ~ 0
+M_RST
+Text Label 1950 3350 2    59   ~ 0
+M_RST
+$Comp
+L R R?
+U 1 1 5C7E3C0E
+P 2100 3350
+F 0 "R?" V 2180 3350 50  0000 C CNN
+F 1 "R" V 2100 3350 50  0000 C CNN
+F 2 "" V 2030 3350 50  0001 C CNN
+F 3 "" H 2100 3350 50  0001 C CNN
+	1    2100 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5C7E3CF1
+P 2250 3350
+F 0 "#PWR?" H 2250 3200 50  0001 C CNN
+F 1 "VCC" V 2250 3550 50  0000 C CNN
+F 2 "" H 2250 3350 50  0001 C CNN
+F 3 "" H 2250 3350 50  0001 C CNN
+	1    2250 3350
+	0    1    1    0   
+$EndComp
+Text Notes 2000 3300 0    39   ~ 0
+Pull-up resistor to multiplexer RST
 $EndSCHEMATC
