@@ -1495,7 +1495,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 5300 7300 5300
 Wire Wire Line
-	6200 5400 7300 5400
+	5900 5400 7300 5400
 Wire Wire Line
 	5850 6400 7300 6400
 Wire Wire Line
@@ -3105,4 +3105,9 @@ Wire Wire Line
 Wire Wire Line
 	13200 750  13300 750 
 Connection ~ 13300 750 
+Text Notes 13550 2750 2    39   ~ 0
+Built-in 100kR pull-down resistors on M0,M1,M2:\nonly need jumpers to connected them to Vcc\n
+Connection ~ 6200 5400
+Text Label 5900 5400 2    59   ~ 0
+M_RST
 $EndSCHEMATC
