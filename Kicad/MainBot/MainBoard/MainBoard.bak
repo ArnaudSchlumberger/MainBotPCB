@@ -3471,4 +3471,8 @@ F 3 "" H 1900 850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1900 850  1900 950 
+Text Notes 2950 2150 0    60   ~ 0
+anti pola inverse\n
+Text Notes 3450 2250 0    60   ~ 0
+mosfet ou diode\n
 $EndSCHEMATC
