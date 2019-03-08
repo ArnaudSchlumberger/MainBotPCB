@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name Teensy)(type Github)(uri https://github.com/XenGi/teensy.pretty)(options "")(descr ""))
   (lib (name Rex)(type KiCad)(uri /home/rex/ARTS/RobotPrincipal/KicadLib/rex.pretty)(options "")(descr ""))
+  (lib (name DFN-12_DE-M)(type Legacy)(uri /home/rex/Téléchargements/DFN-12_DE-M.mod)(options "")(descr ""))
 )
