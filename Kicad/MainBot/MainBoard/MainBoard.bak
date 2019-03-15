@@ -1485,9 +1485,9 @@ SDA1
 Text Label 1250 7250 0    60   ~ 0
 SDA1
 Text Label 1250 7350 0    60   ~ 0
-SCA1
+SCL1
 Text Label 750  7350 2    60   ~ 0
-SCA1
+SCL1
 Text Label 6400 7100 0    60   ~ 0
 ADDR_0
 Text Label 6400 7200 0    60   ~ 0
@@ -2834,30 +2834,6 @@ $EndComp
 Text Label 9300 6400 0    60   ~ 0
 Vin
 $Comp
-L TL081 U8
-U 1 1 5C86DE63
-P 3850 2350
-F 0 "U8" H 3850 2600 50  0000 L CNN
-F 1 "TL081" H 3850 2500 50  0000 L CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 3900 2400 50  0001 C CNN
-F 3 "" H 4000 2500 50  0001 C CNN
-	1    3850 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR0107
-U 1 1 5C870F52
-P 3750 2650
-F 0 "#PWR0107" H 3750 2400 50  0001 C CNN
-F 1 "GND" H 3750 2500 50  0000 C CNN
-F 2 "" H 3750 2650 50  0001 C CNN
-F 3 "" H 3750 2650 50  0001 C CNN
-	1    3750 2650
-	1    0    0    -1  
-$EndComp
-Text Label 3750 2050 0    60   ~ 0
-Vbat
-$Comp
 L R R27
 U 1 1 5C874B54
 P 4500 2550
@@ -3506,26 +3482,11 @@ Connection ~ 15600 5100
 Connection ~ 15600 2900
 Connection ~ 15600 7400
 Wire Wire Line
-	3550 2450 3500 2450
-Wire Wire Line
-	3500 2450 3500 2850
-Wire Wire Line
-	3500 2850 4200 2850
-Wire Wire Line
-	4200 2850 4200 2350
-Wire Wire Line
-	4150 2350 4500 2350
-Wire Wire Line
-	3550 2250 3300 2250
-Connection ~ 4200 2350
-Wire Wire Line
 	4500 2350 4500 2400
 Wire Wire Line
 	4500 2700 4650 2700
 Text Label 4650 2700 0    60   ~ 0
-DAC0
-Text Label 3300 2250 2    60   ~ 0
+A20
+Text Label 4500 2350 0    60   ~ 0
 Vbat
-NoConn ~ 3950 2650
-NoConn ~ 3850 2650
 $EndSCHEMATC
